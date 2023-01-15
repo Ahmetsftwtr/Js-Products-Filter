@@ -26,6 +26,11 @@ body
     text-align: center;
     position: relative;
 }
+#products .item:hover
+{
+    transform: scale(1.05);
+    z-index: 9999;
+}
 #products .item button
 {
     width:100%;
