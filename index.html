@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Products Filter</h1>
+<select onchange="filter(this)">
+    <option selected disabled>Ürün filtrele</option>
+    <option value="1">Fiyata göre yüksek</option>
+    <option value="2">Fiyata göre düşük</option>
+    <option value="3">Erkek</option>
+    <option value="4">Kadın</option>
+    <option value="5">Yeni eklenenler</option>
+
+</select>
+<br>
+<br>
+<br>
+<div id="products">
+</div>
+    
+
+
+<script src="app.js"></script>   
+</body>
+</html>
